@@ -238,17 +238,165 @@ int main()
 //     }   
 
 // Print the below code
+//    1 
+//    2 1 
+//    3 2 1 
+//    4 3 2 1 
+//    5 4 3 2 1 
 
-int row,col,count=1;
 
-for(row=1;row<=5;row++)
-{
-    for(col=1;col<=row;col++)
-    {
-        col=count+1;
-        cout<<count;
-    }
+//   int row,col;
+//     for(row=1;row<=5;row++)
+//   {
+//     for(col=row;col>=1;col--)
+//     {
+//       cout<<col<<" ";
+//     }
+//     cout<<endl;
+//   }
+  
 
-    cout<<endl;
-}
+// Print the below table
+//   a 
+//   b b 
+//   c c c 
+//   d d d d 
+//   e e e e e 
+
+//   char name;
+// int row, col;
+
+// for (name = 'a', row = 1; name <= 'e'; name++, row++)
+// {
+//     for (col = 1; col <= row; col++)
+//     {
+//         cout << name <<" ";
+//     }
+//     cout << endl;
+// }
+
+  
+
+
+   //  Print the below table
+    //    a 
+    //    b a 
+    //    c b a 
+    //    d c b a 
+    //    e d c b a 
+//   int row,col;
+//   char name = 'a';
+//   for(row=1;row<=5;row++)
+//   {
+    
+//     for(col=row;col>=1;col--)
+//     {
+//       char name='a'+(col-1);
+//       cout<<name<<' ';
+//     }
+//     cout<<endl;
+//   }
+
+
+  
+  //  Print the below table
+    //   a 
+    //   b b 
+    //   c c c 
+    //   d d d d 
+    //   e e e e e 
+//   int row,col;
+//   char name = 'a';
+//   for(row=1;row<=5;row++)
+//   {
+    
+//     for(col=row;col>=1;col--)
+//     {
+//       char name='a'+(row-1);
+//       cout<<name<<' ';
+//     }
+//     cout<<endl;
+//   }
+  
+ 
+//  Print the below table
+//   * * * * * 
+//   * * * * * 
+//   * * * * * 
+//   * * * * * 
+//   * * * * *
+//   int row,col;
+  
+//   for(row=5;row>=1;row=row-1)
+//   {
+//     for(col=1;col<=5;col++)
+//     {
+//       cout<<"*"<<" ";
+//     }
+//     cout<<endl;
+//   }
+
+
+
+  
+// Print the below code
+//   1 2 3 4 5 
+//   1 2 3 4 
+//   1 2 3 
+//   1 2 
+//   1 
+//     int row,col;
+  
+//   for(row=5;row>=1;row--)
+//   {
+//     for(col=1;col<=row;col++)
+//     {
+        
+//       cout<<col<<" ";
+//     }
+//     cout<<endl;
+//   }
+      
+    // Print the below pattern 
+//     * * * * * 
+//     * * * * 
+//     * * * 
+//     * * 
+//     *   
+//           int row,col;
+  
+//   for(row=5;row>=1;row--)
+//   {
+//     for(col=1;col<=row;col++)
+//     {
+        
+//       cout<<"*"<<" ";
+//     }
+//     cout<<endl;
+//   }
+
+
+// Print the below pattern 
+// 5 4 3 2 1 
+// 5 4 3 2 
+// 5 4 3 
+// 5 4 
+// 5
+
+//      int row,col;
+  
+//   for(row=1;row<=5;row++)
+//   {
+//       for(col=5;col>=row;col--)
+//       {
+//           cout<<col<<" ";
+//       }
+  
+//       cout<<endl;
+//   }      
+
+  
+  
+  
+
 }
