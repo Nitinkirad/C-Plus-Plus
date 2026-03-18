@@ -1,18 +1,8 @@
-#include <iostream>
-using namespace std;
+void swap(int x , int y)
+// {
+//     int z;
+//     z=x;
+//     x=y;
+//     y=z;
 
-int row,col;
-    for (size_t i = 0; i < count; i++)
-    {
-        /* code */
-    }
-    (row=5;row>0;row--)
-    {
-        
-        for(col=5;col>0;col--)
-        {
-            cout<<col<<" ";
-        }
-
-        cout<<endl;
-    } 
+// }
